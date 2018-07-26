@@ -1,0 +1,71 @@
+
+A:link {
+	text-decoration: none; 
+	color: #EE7F2D;
+}
+A:visited {
+	text-decoration: none;
+	color: #aa4400;
+}
+A:active {
+	text-decoration: none;
+	color: #552200;
+}
+A:hover {
+	text-decoration: underline;
+	color: #007700;
+}
+
+BODY {
+	font-family: Arial, Verdana, sans-serif;
+	color: #999999;
+}
+
+H1 {
+	font-size: 2em;
+	font-weight: normal;
+	margin: 0;
+	font-family: "comic sans ms", Arial;
+	color: #999999; 
+}
+
+H2 {
+	font-weight: normal;
+	margin: 0;
+	font-family: "comic sans ms", Arial;
+	color: #999999; 
+}
+
+H3 {
+	font-weight: normal;
+	margin: 0;
+	font-family: "comic sans ms", Arial;
+	color: #999999; 
+}
+
+IMG {
+	border: 0;
+}
+
+.tile {
+	max-height: 150px;
+	max-width: 150px;
+	padding: 3px;
+}
+
+.tiles {
+	clear: both;
+	background: black;
+	border: 3px solid #555555;
+	width: 770px;
+}
+
+#facebook {
+       text-align: center;
+}
+
+.fb_ltr {
+margin: 0 auto;
+width: auto !important;
+}
+
