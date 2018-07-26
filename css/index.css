@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica,Arial,sans-serif; }
+
+header {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  -moz-flex-flow: row nowrap;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-align-content: center;
+  -moz-align-content: center;
+  -ms-align-content: center;
+  align-content: center; }
+  header img {
+    max-width: 300px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain; }
+
+@media all and (min-width: 620px) {
+  .triple-blocks {
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-justify-content: space-around;
+    -moz-justify-content: space-around;
+    -ms-justify-content: space-around;
+    justify-content: space-around;
+    -ms-flex-pack: space-around; } }
+@media all and (max-width: 619px) {
+  .triple-blocks {
+    -webkit-flex-flow: column nowrap;
+    -moz-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-align-content: space-around;
+    -moz-align-content: space-around;
+    -ms-align-content: space-around;
+    align-content: space-around;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center; } }
+.triple-blocks {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+  .triple-blocks article {
+    min-width: 175px;
+    max-width: 275px;
+    margin: 20px;
+    border: solid #E97F40 2px; }
+    .triple-blocks article h4 {
+      background-color: #E97F40;
+      text-align: center;
+      margin: 0 0 10px 0; }
+    .triple-blocks article p {
+      text-align: justify;
+      margin: 0 5px; }
+
+/*# sourceMappingURL=index.css.map */

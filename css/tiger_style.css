@@ -1,0 +1,262 @@
+body {
+	font: 0.9em "Lucida Sans Unicode", "Lucida Grande", Arial, Helvetica, sans-serif;
+	color: Gray;
+	background: #eeeeee;
+	margin: 0;
+	padding: 0;
+	padding-left: 0px;
+	padding-right: 0px;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+#header {
+	width: 100%;
+	height: 86px;
+	background: url(../soaringtigers_216x180_title.png) no-repeat;  
+        background-size: 99.8%;
+	padding: 1px 1px 1px 1px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+#footer
+{
+    color: #666666;
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+div.wrapper_box {
+	width: 990px;
+	margin: 10px auto;
+	background: #f1f1f1;
+	padding: 0px 0px 0px 0px;
+	border: 1px solid #2e2e2e;
+	position:relative;
+}
+
+div.wrapper_box .padding {
+	padding: 10px 5px 10px 5px;
+}
+
+
+span.superscript
+{
+  font-size: 0.8em;
+  color: Orange;
+  vertical-align: top;
+  content: "+";
+}
+
+p .tinyundertext
+{
+    font-size: 0.7em;
+    top: -10px;
+}
+
+
+
+h2 {
+	margin: 0;
+	padding: 0.5em 0;
+	color:#C86301;
+	font-family:Helvetica, Arial, Sans-serif;
+}
+
+
+h3 {
+	margin: 20px 0 0 0;
+    text-decoration: underline;
+	padding: 0.5em 0;
+}
+
+
+.header {
+        text-decoration: underline;
+        border-bottom: 2px black;
+}
+
+.ribbon {
+	position:absolute;
+	top:-3px;
+	left:-3px;
+	z-index:5000;
+}
+
+.ascomplugin {
+	position:absolute;
+	top:10px;
+	left:0px;
+}
+
+#headerHeadline {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	padding-top: 80px;
+}
+
+
+a:link, a:visited 
+{
+    font-size: 1.0em;
+    border-width: 0px;
+    text-decoration: none;
+    /* color: #834201; */
+    color: #C86301; 
+}
+a:hover
+{
+    /* color: #C86301; */
+    color: #F68402;
+}
+
+/* Firefox Dotted Outline Fix */
+a:active { 
+	outline: none; 
+}
+a:focus { 
+	-moz-outline-style: none; 
+}
+
+
+
+
+
+div.line {
+	width: 100%;
+	height: 0px;
+	border-top: 1px solid #1e1e1e;
+	position:relative;
+}
+
+div.highlight 
+{
+	color:Orange;
+	padding-top: 0.50em;
+}
+
+span.highlight 
+{
+	color:Orange;
+	padding-top: 0.50em;
+}
+
+#BottomBox 
+{
+        /*
+	background: url(./../SoaringTigers/soaringtigers_140x140_white.png) no-repeat right bottom;  
+        */
+	position:relative;
+	height:140px;
+	
+}
+#textualizer
+{
+    position:absolute;  
+    color: #C86301;
+    font-size: 22px;
+    letter-spacing: 8px;
+    width: 700px;
+    height: 140px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+.table {position:relative; font-size: 0.90em;}
+div.table div.row {display:table; border-collapse:collapse; width: 100%;}
+div.table div.row div.cell {display: table-cell;}
+
+div.table div.row div.cell {border-left:1px solid #1e1e1e; border-bottom:1px
+        solid #1e1e1e; background:#0d0d0d; padding: 5px 3px 5px 3px; text-align:center; width:200px; }
+div.table div.row div.cell.last {border-right:1px solid #1e1e1e;}
+
+div.table div.row.head div.cell {border-top:1px solid #1e1e1e; background:#191919; color:#C86301;}
+div.table div.row.first div.cell {border-top:1px solid #1e1e1e;}
+div.table div.row.even div.cell {background:#151515;}
+
+
+
+.tableprice {position:relative; font-size: 1.20em;}
+div.tableprice div.row {display:table; border-collapse:collapse; width: 500px;}
+div.tableprice div.row div.cell {display: table-cell;}
+
+div.tableprice div.row div.cell {border-left:1px solid #1e1e1e; border-bottom:1px solid #1e1e1e; background:#0d0d0d; padding: 5px 3px 5px 3px; text-align: center; width: 80px; }
+div.tableprice div.row div.cell.last {border-right:1px solid #1e1e1e;}
+
+div.tableprice div.row.head div.cell {border-top:1px solid #1e1e1e; background:#191919; color:#C86301;}
+div.tableprice div.row.first div.cell {border-top:1px solid #1e1e1e;}
+div.tableprice div.row.even div.cell {background:#151515;}
+
+   
+.linkstrailer{
+    width: 100%;}
+.linkstrailer ul{
+    margin: 0; padding: 0;
+    float: left;}
+.linkstrailer ul li{
+    display: inline;}
+.linkstrailer ul li a
+{
+    float: left;
+    text-decoration: none;
+    font-size: 1.0em;
+    color: #858585;
+    padding: 20px 30px 0px 5px;
+}
+.linkstrailer ul li a:hover{
+    color: #C86301;}
+
+       
+
+    
+
+#fade { /*--Transparent background layer--*/
+	display: none; /*--hidden by default--*/
+	background: #000;
+	position: fixed; left: 0; top: 0;
+	width: 100%; height: 100%;
+	opacity: .60;
+	z-index: 9999;
+}
+.popup_block{
+	display: none; /*--hidden by default--*/
+	background: #151515;
+	padding: 20px;
+	border: 1px solid #252525;
+	font-size: 1.0em;
+	position:absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 99999;
+	/*--CSS3 Box Shadows--*/
+	-webkit-box-shadow: 0px 0px 20px #000;
+	-moz-box-shadow: 0px 0px 20px #000;
+	box-shadow: 0px 0px 20px #000;
+
+	/*--CSS3 Rounded Corners--*/
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+}
+img.btn_close 
+{
+    float: right;
+	margin: -30px -30px 0 0;
+}
+/*--Making IE6 Understand Fixed Positioning--*/
+*html #fade {
+	position: absolute;
+}
+*html .popup_block {
+	position: absolute;
+}
+
+
+	
