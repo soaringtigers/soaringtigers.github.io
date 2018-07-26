@@ -1,0 +1,60 @@
+@import '_flexbox';
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+header {
+    @include flexbox();
+    @include flex-flow(row nowrap);
+    @include justify-content(center);
+    @include align-content(center);
+
+    img {
+        max-width: 300px;
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+}
+
+@media all and (min-width: 620px) {
+    .triple-blocks {
+        @include flex-flow(row nowrap);
+        @include justify-content(space-around);
+    }
+}
+
+@media all and (max-width: 619px) {
+    .triple-blocks {
+        @include flex-flow(column nowrap);
+        @include align-content(space-around);
+        @include align-items(center);
+    }
+}
+
+.triple-blocks {
+    @include flexbox();
+
+    article {
+        min-width: 175px;
+        max-width: 275px;
+        margin: 20px;
+
+        border: solid #E97F40 2px;
+
+        h4 {
+            background-color: #E97F40;
+            text-align: center;
+            margin: 0 0 10px 0;
+        }
+
+        p {
+            text-align: justify;
+            margin: 0 5px;
+        }
+    }
+}
